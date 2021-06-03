@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital,wght@0,900;1,300&display=swap');
+
+
+.container {
+  margin: 40px auto;
+  width: 700px;
+}
+.card-white {
+  background-color: white;
+  margin: 20px 0px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+}
+
+#profilepic {
+  border-radius: 50%;
+}
+
+#lewagon-btn {
+  background-color: #6B72E1;
+  color: white;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#lewagon-btn:hover {
+  background:black ;
+}
+
+#social-media, li {
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#social-media, li > a {
+  color: #b4bde0;
+  font-size: 50px;
+}
+
+#social-media, li > a:hover {
+  color: black;
+}
+
+body{
+  background-color: #F7F9FC;
+  color: #575F7D;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h2 {
+  color: #7ECE90;
+}
+
+h1, h2{
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+p {
+  font-weight: lighter;
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #6B72E1;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #7ECE90;
+  font-weight: 500px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 150px) {
+  .container {
+    width: 100px;
+  }
+}
